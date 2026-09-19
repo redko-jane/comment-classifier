@@ -64,6 +64,32 @@ Fullstack-приложение для классификации коммент�
 
 
 
+Скриншоты
+
+
+
+Все экраны в каталоге docs/screenshots:
+
+
+
+\- 01-home.png — главная
+
+\- 02-login.png — вход
+
+\- 03-register.png — регистрация
+
+\- 04-classify.png — классификатор
+
+\- 05-history.png — история
+
+\- 06-record-detail.png — детали записи
+
+\- 07-profile.png — профиль
+
+\- 08-not-found.png — 404
+
+
+
 Стек
 
 
@@ -97,6 +123,10 @@ Backend: Python, FastAPI, PostgreSQL, SQLAlchemy (в разработке).
 
 
 Запуск
+
+
+
+Frontend. Требуется Node.js 18 или выше.
 
 
 
