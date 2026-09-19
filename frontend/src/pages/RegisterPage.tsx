@@ -1,9 +1,12 @@
+import Typography from '@mui/material/Typography';
+import Stack from '@mui/material/Stack';
+
 function RegisterPage() {
   return (
-    <div>
-      <h1>Регистрация</h1>
-      <p>Форма регистрации будет добавлена на следующем этапе.</p>
-    </div>
+    <Stack spacing={2}>
+      <Typography variant="h1">Регистрация</Typography>
+      <Typography>Форма регистрации будет добавлена на следующем этапе.</Typography>
+    </Stack>
   );
 }
 

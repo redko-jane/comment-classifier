@@ -1,9 +1,12 @@
+import Typography from '@mui/material/Typography';
+import Stack from '@mui/material/Stack';
+
 function NotFoundPage() {
   return (
-    <div>
-      <h1>404</h1>
-      <p>Страница не найдена.</p>
-    </div>
+    <Stack spacing={2}>
+      <Typography variant="h1">404</Typography>
+      <Typography>Страница не найдена.</Typography>
+    </Stack>
   );
 }
 

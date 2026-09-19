@@ -1,9 +1,12 @@
+import Typography from '@mui/material/Typography';
+import Stack from '@mui/material/Stack';
+
 function HistoryPage() {
   return (
-    <div>
-      <h1>История запросов</h1>
-      <p>Здесь будет список сохранённых комментариев с фильтром по тональности.</p>
-    </div>
+    <Stack spacing={2}>
+      <Typography variant="h1">История запросов</Typography>
+      <Typography>Здесь будет список сохранённых комментариев с фильтром по тональности.</Typography>
+    </Stack>
   );
 }
 

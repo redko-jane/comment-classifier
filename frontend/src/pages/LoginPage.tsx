@@ -1,9 +1,12 @@
+import Typography from '@mui/material/Typography';
+import Stack from '@mui/material/Stack';
+
 function LoginPage() {
   return (
-    <div>
-      <h1>Вход</h1>
-      <p>Форма авторизации будет добавлена на следующем этапе.</p>
-    </div>
+    <Stack spacing={2}>
+      <Typography variant="h1">Вход</Typography>
+      <Typography>Форма авторизации будет добавлена на следующем этапе.</Typography>
+    </Stack>
   );
 }
 

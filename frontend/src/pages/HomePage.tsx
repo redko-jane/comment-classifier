@@ -1,9 +1,12 @@
+import Typography from '@mui/material/Typography';
+import Stack from '@mui/material/Stack';
+
 function HomePage() {
   return (
-    <div>
-      <h1>Comment Classifier</h1>
-      <p>Сервис для классификации комментариев по тональности.</p>
-    </div>
+    <Stack spacing={2}>
+      <Typography variant="h1">Comment Classifier</Typography>
+      <Typography>Сервис для классификации комментариев по тональности.</Typography>
+    </Stack>
   );
 }
 

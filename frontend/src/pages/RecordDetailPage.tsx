@@ -1,9 +1,12 @@
+import Typography from '@mui/material/Typography';
+import Stack from '@mui/material/Stack';
+
 function RecordDetailPage() {
   return (
-    <div>
-      <h1>Детали записи</h1>
-      <p>Здесь будет полный текст комментария, результат и время создания.</p>
-    </div>
+    <Stack spacing={2}>
+      <Typography variant="h1">Детали записи</Typography>
+      <Typography>Здесь будет полный текст комментария, результат и время создания.</Typography>
+    </Stack>
   );
 }
 

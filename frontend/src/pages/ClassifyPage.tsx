@@ -1,9 +1,12 @@
+import Typography from '@mui/material/Typography';
+import Stack from '@mui/material/Stack';
+
 function ClassifyPage() {
   return (
-    <div>
-      <h1>Классификатор</h1>
-      <p>Здесь будет форма ввода комментария и результат анализа.</p>
-    </div>
+    <Stack spacing={2}>
+      <Typography variant="h1">Классификатор</Typography>
+      <Typography>Здесь будет форма ввода комментария и результат анализа.</Typography>
+    </Stack>
   );
 }
 
