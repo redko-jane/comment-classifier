@@ -1,10 +1,8 @@
+import { RouterProvider } from 'react-router-dom';
+import { router } from './router';
+
 function App() {
-  return (
-    <div>
-      <h1>Comment Classifier</h1>
-      <p>Каркас приложения</p>
-    </div>
-  );
+  return <RouterProvider router={router} />;
 }
 
 export default App;
