@@ -11,6 +11,8 @@ build/
 !.env.example
 *.pem
 *.key
+*.db
+*.sqlite3
 
 # ---------- Python / backend ----------
 __pycache__/
@@ -21,6 +23,9 @@ env/
 *.egg-info/
 .pytest_cache/
 .mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
 
 # ---------- IDE / OS ----------
 .vscode/
